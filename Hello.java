@@ -1,11 +1,17 @@
+import java.util.Date;
+
 public class Hello{
 	public static void main (String[] args){
 		
-		System.out.println("认真听课的孩子才是好孩子!");
-		System.out.println("不认真听课的孩子去后边站着!");
+
 		System.out.println("今天面试不太顺利");
 		Action action = new Action();
 		Emp emp = new Emp();
 
+		System.out.println("临近中午，适合学习，因为饿了");
+
+		Date date = new Date();
+
+		System.out.println(date);
 	}
 }
